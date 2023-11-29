@@ -17,16 +17,13 @@
     "ADMINS": {
       "required": true
     },
+    "FSUB_TOTAL": {
+      "required": true
+    },
     "FORCE_SUB_1": {
-      "required": false
+      "required": true
     },
     "FORCE_SUB_2": {
-      "required": false
-    },
-    "FORCE_SUB_3": {
-      "required": false
-    },
-    "FORCE_SUB_4": {
       "required": false
     }
   },
