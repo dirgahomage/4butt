@@ -9,7 +9,7 @@ from logging.handlers import RotatingFileHandler
 
 load_dotenv()
 
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "6325594724:AAH-2SZRoxVdpbirNhXlyG5-uwlE7HU43CQ")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "7373051119:AAEhVYgrN8yjsw6dI3iNQfV-eH_vtSl_Qjk")
 
 API_ID = int(os.environ.get("API_ID", "29486311"))
 API_HASH = os.environ.get("API_HASH", "ffdc688dc4eee8d2585cb24155188432")
@@ -20,8 +20,8 @@ DATABASE_NAME = os.environ.get("DATABASE_NAME", "bokep1")
 
 RESTRICT = strtobool(os.environ.get("RESTRICT", "True"))
 
-FORCE_SUB_1 = int(os.environ.get("FORCE_SUB_1", "-1002037994205"))
-FORCE_SUB_2 = int(os.environ.get("FORCE_SUB_2", "-1002018123667"))
+FORCE_SUB_1 = int(os.environ.get("FORCE_SUB_1", "-1002169460024"))
+FORCE_SUB_2 = int(os.environ.get("FORCE_SUB_2", "-1002188219714"))
 FORCE_SUB_3 = int(os.environ.get("FORCE_SUB_3", "0"))
 FORCE_SUB_4 = int(os.environ.get("FORCE_SUB_4", "0"))
 
@@ -41,7 +41,7 @@ FORCE_MESSAGE = os.environ.get(
 )
 
 try:
-    ADMINS = [int(x) for x in (os.environ.get("ADMINS", "1707380693").split())]
+    ADMINS = [int(x) for x in (os.environ.get("ADMINS", "1707380693 6291921516").split())]
 except ValueError:
     raise Exception("Daftar Admin Anda tidak berisi User ID Telegram yang valid.")
     
